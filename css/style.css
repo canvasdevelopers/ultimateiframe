@@ -1,0 +1,85 @@
+
+h1{
+	text-align:center;
+}
+  #resizable {
+	  width: 100%;
+	  height: 552px;
+	  padding: 26px; 
+	background:url("../img/bg.png") #000 no-repeat;
+	}
+  #resizable h3 { text-align: center; margin: 0; }
+  
+  
+  
+  
+#my-div
+{
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+    position : relative;
+	background:url("../img/transparent.png") white;
+	
+    transition:opacity 2s ease-in-out;
+    -moz-transition:opacity 2s ease-in-out;
+    -webkit-transition:opacity 2s ease-in-out;
+    -o-transition:opacity 2s ease-in-out;
+}
+ 
+#my-iframe
+{
+    position : absolute;
+    top      : 0px;
+    left     : 0px;
+    width    : 1920px;
+    height   : 5000px;
+	
+    transition:opacity 2s ease-in-out;
+    -moz-transition:opacity 2s ease-in-out;
+    -webkit-transition:opacity 2s ease-in-out;
+    -o-transition:opacity 2s ease-in-out;
+	
+}
+
+
+#move-div
+{
+    position : absolute;
+    top      : 0px;
+    left     : 0px;
+    width    : 1920px;
+    height   : 5000px;
+	background:url("../img/gridb.png") rgba(0,0,0,.5)  no-repeat;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+	
+}
+
+.scalesample{
+	
+        -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+}
+
+
+.boxsiz{
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+}
+
+
+
+
+#move-div:active 
+{
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
